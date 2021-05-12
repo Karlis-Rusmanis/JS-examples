@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic-tac-toe</title>
+    <link rel="stylesheet" href="tictactoe.css">
+</head>
+<body>
+    <div class="container" id="app">
+        <a href="#" data-id="0"></a>
+        <a href="#" data-id="1"></a>
+        <a href="#" data-id="2"></a>
+        
+        <a href="#" data-id="3"></a>
+        <a href="#" data-id="4"></a>
+        <a href="#" data-id="5"></a>
+    
+        <a href="#" data-id="6"></a>
+        <a href="#" data-id="7"></a>
+        <a href="#" data-id="8"></a>
+    </div>
+
+    <a href="#" data-app="app" onclick="resetApp.bind(this)()">reset</a>
+
+    <div id="message">
+    
+    </div>
+
+    <div class="container" id="tictactoe">
+        <a href="#" data-id="0"></a>
+        <a href="#" data-id="1"></a>
+        <a href="#" data-id="2"></a>
+        
+        <a href="#" data-id="3"></a>
+        <a href="#" data-id="4"></a>
+        <a href="#" data-id="5"></a>
+    
+        <a href="#" data-id="6"></a>
+        <a href="#" data-id="7"></a>
+        <a href="#" data-id="8"></a>
+    </div>
+
+    <a href="#" data-app="tictactoe" onclick="resetApp.bind(this)()">reset</a>  
+
+    <div id="message2">
+    
+    </div>
+</body>
+</html>
+
+<script src="tictactoe.js"></script>

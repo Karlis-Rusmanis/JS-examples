@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UI examples</title>
+
+    <link rel="stylesheet" href="http://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <a href="index.html" title="main page">index</a>
+    <div id="draggable">
+        <form action="" id="tasks">
+            <input type="text" name='name' placeholder="fullname" title="Type your firstname and lastname" >
+            <button type="submit">submit</button>
+            <strong>Move me</strong>
+            <div class="task_list" style="display:flex; flex-direction:column"></div>
+        </form>
+
+        <a href="#" class="add-task">add</a>
+
+        <div class="template todo">
+            <span id="move">move </span>
+            <input type="text" name="todo[]">
+        </div>
+    </div>
+</body>
+</html>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<script src="script.js"></script>

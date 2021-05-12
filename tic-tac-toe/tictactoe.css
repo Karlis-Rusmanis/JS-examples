@@ -1,0 +1,29 @@
+.container {
+  display: grid;
+  grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+  width: 400px;
+  height: 400px;
+  grid-gap: 10px;
+  margin: 200px auto 50px;
+  font-size: 80px;
+}
+
+.container a {
+  font-family: "Arial";
+  color: green;
+  border: 1px solid black;
+  text-decoration: none;
+  font-size: 1em;
+  line-height: 1.3em;
+  text-align: center;
+}
+
+#message {
+  font-size: 20px;
+  text-align: center;
+}
+
+#message2 {
+  font-size: 20px;
+  text-align: center;
+}

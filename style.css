@@ -1,0 +1,21 @@
+.btn {
+  display: inline-block;
+  padding: 8px;
+  margin: 5px;
+  background: gray;
+  color: white;
+  border-radius: 3px;
+  text-decoration: none;
+}
+
+.btn:active {
+  background: rgb(176, 253, 51);
+  transition: background 0.1s;
+}
+
+.red {
+  background: rgb(177, 1, 1);
+}
+.red:active {
+  background: rgb(253, 104, 104);
+}

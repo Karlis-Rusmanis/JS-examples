@@ -1,0 +1,42 @@
+.container {
+  display: grid;
+  grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+  width: 400px;
+  height: 400px;
+  grid-gap: 10px;
+  margin: 200px auto 50px;
+  font-size: 80px;
+}
+
+.container a {
+  font-family: Aril;
+  color: rgb(33, 33, 150);
+  border: 1px solid grey;
+  text-decoration: none;
+  font-size: 1em;
+  line-height: 1.2em;
+  text-align: center;
+}
+
+#message,
+#message2 {
+  font-size: 20px;
+  text-align: center;
+}
+
+.container .red {
+  background: rgb(253, 89, 89);
+  color: white;
+}
+
+#draggable {
+  background: rgba(153, 205, 50, 0.253);
+}
+
+.template {
+  display: none;
+}
+
+#move {
+  border: black solid 1px;
+}
